@@ -134,10 +134,7 @@ jobs:
       matrix:
         # MANUAL: Add your monitored git branches here
         branch:
-          - monitoring_myclient
-          - monitoring_myclient__integ_sandbox
-          - monitoring_myclient__recette_sandbox
-          - monitoring_myclient__preprod_sandbox
+          - main
     steps:
       # Checkout repo
       - name: Checkout code
